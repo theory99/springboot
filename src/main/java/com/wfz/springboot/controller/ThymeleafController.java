@@ -19,4 +19,5 @@ public class ThymeleafController {
 	public String hello1(){
 		return "websocket";
 	}
+	
 }

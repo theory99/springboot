@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * 消息消费者
  * @author admin
  */
-@Component
+//@Component
 public class JmsReceiver {
 
 	@JmsListener(destination = JmsConfirguration.QUEUE_NAME)

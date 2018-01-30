@@ -19,7 +19,7 @@ public class DepartmentTest {
 	
 	@Test
 	public void test(){
-		testUpdate();
+		testInsert();
 	}
 	
 	public void testInsert() {
