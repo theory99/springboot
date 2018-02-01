@@ -1,17 +1,13 @@
 package com.wfz.springboot;
 
-import java.util.Date;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.wfz.springboot.dao.UserDao;
 import com.wfz.springboot.jpa.RoleRepository;
 import com.wfz.springboot.pojo.Role;
-import com.wfz.springboot.pojo.User;
 
 
 @RunWith(SpringRunner.class)
@@ -23,7 +19,7 @@ public class RoleRepositoryTest {
 	
 	@Test
 	public void test(){
-		testUpdate();
+		testInsert();
 	}
 	
 	public void testInsert() {

@@ -1,4 +1,4 @@
-package com.wfz.springboot.filter;
+package com.wfz.springboot.interceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

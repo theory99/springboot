@@ -1,7 +1,5 @@
 package com.wfz.springboot;
 
-import java.util.Date;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +19,7 @@ public class JmsTest {
 	
 	@Test
 	public void test(){
+		testSendByQueue();
 		testSendByTopic();
 	}
 	
