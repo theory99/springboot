@@ -19,8 +19,7 @@ public class JmsTest {
 	
 	@Test
 	public void test(){
-		testSendByQueue();
-		testSendByTopic();
+		
 	}
 	
 	public void testSendByQueue() {

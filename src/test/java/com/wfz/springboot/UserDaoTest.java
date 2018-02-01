@@ -21,7 +21,7 @@ public class UserDaoTest {
 	
 	@Test
 	public void test(){
-		testInsert();
+		
 	}
 	
     public void testInsert() {

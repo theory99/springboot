@@ -36,10 +36,10 @@
 		    <scope>true</scope>
 		</dependency>
     	
-    	<!-- <dependency>
+    	<dependency>
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-starter-log4j2</artifactId>
-		</dependency> -->
+		</dependency>
 		<!-- ftp模板配置 -->
 		<dependency>
 		    <groupId>org.springframework.boot</groupId>

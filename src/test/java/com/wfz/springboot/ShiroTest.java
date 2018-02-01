@@ -22,6 +22,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class ShiroTest {
 
 	@Test
+	public void t(){
+		
+	}
 	public void test(){
 		// 读取 shiro.ini 文件内容
 		Factory<org.apache.shiro.mgt.SecurityManager> factory =new IniSecurityManagerFactory("classpath:shiro.ini");

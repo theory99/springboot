@@ -19,7 +19,7 @@ public class RoleRepositoryTest {
 	
 	@Test
 	public void test(){
-		testInsert();
+		
 	}
 	
 	public void testInsert() {
